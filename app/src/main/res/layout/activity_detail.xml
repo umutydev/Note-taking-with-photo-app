@@ -28,7 +28,7 @@
                 android:id="@+id/btnUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="KAYDET / GÜNCELLE"
+                android:text="Save / Update"
                 android:backgroundTint="#FF9800"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -37,7 +37,7 @@
             android:id="@+id/etDetailTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Başlık"
+            android:hint="Title"
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:textSize="22sp"
@@ -57,7 +57,7 @@
             android:id="@+id/etDetailContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="İçerik..."
+            android:hint="Contents..."
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:textSize="18sp"

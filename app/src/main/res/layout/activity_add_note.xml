@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yeni Not Ekle"
+                android:text="Add New Note"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="#333"/>
@@ -39,7 +39,7 @@
             android:id="@+id/etNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Not Başlığı"
+            android:hint="Title"
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:textSize="18sp"
@@ -50,7 +50,7 @@
             android:id="@+id/etNoteContent"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:hint="Buraya notunu yaz..."
+            android:hint="Write Here..."
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:gravity="top|start"
@@ -77,7 +77,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Foto Çek"
+                android:text="Take Photo"
                 android:drawableLeft="@android:drawable/ic_menu_camera"
                 android:backgroundTint="#673AB7"
                 android:layout_marginEnd="5dp"/>
@@ -87,7 +87,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Galeri"
+                android:text="Gallery"
                 android:drawableLeft="@android:drawable/ic_menu_gallery"
                 android:backgroundTint="#FF9800"
                 android:layout_marginStart="5dp"/>
@@ -97,7 +97,7 @@
             android:id="@+id/btnSaveNote"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="NOTU KAYDET"
+            android:text="Save Note"
             android:textSize="18sp"
             android:textStyle="bold"
             android:backgroundTint="#4CAF50"/>

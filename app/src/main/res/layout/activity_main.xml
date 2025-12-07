@@ -19,7 +19,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Notlarım"
+            android:text="My Notes"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#333"/>
@@ -40,7 +40,7 @@
         android:layout_below="@id/topBar"
         android:layout_margin="10dp"
         android:background="@drawable/search_background"
-        app:queryHint="Notlarda ara..."
+        app:queryHint="Search in notes..."
         app:iconifiedByDefault="false"
         android:focusable="true"
         android:focusableInTouchMode="true"

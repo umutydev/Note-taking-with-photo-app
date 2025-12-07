@@ -34,7 +34,7 @@
                 android:id="@+id/tvItemTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Not Başlığı"
+                android:text="Title"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#000"/>
@@ -43,7 +43,7 @@
                 android:id="@+id/tvItemContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="İçerik..."
+                android:text="Contents..."
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:textSize="14sp"
